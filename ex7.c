@@ -21,7 +21,7 @@ int main(int arc, char *argv[])
 	double bug_rate = 1.2;
 	printf("You have %d bugs at the imaginary rate of %f.\n", bugs, bug_rate);
 
-	long universe_of_defects = 99999999999 * 9999999999 * 99999999 * 1L * 1024L * 1024L * 1024L;
+	long universe_of_defects = 1L * 1024L * 1024L * 1024L;
 	printf("The entire universe has %ld bugs.\n", universe_of_defects);
 
 	double expected_bugs = bugs * bug_rate;
@@ -35,7 +35,9 @@ int main(int arc, char *argv[])
 	int care_percentage = bugs * nul_byte;
 	printf("Which means you should care %d%%.\n", care_percentage);
 
-	printf("wrong = %s", nul_byte);
+	printf("wrong = %s\n.", nul_byte);
+
+	printf("char times int %d.\n",'a' * 1);
 	
 	return 0;
 }
