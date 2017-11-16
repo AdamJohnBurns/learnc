@@ -10,3 +10,9 @@ Things I've learned about nano:
 * ^O is save 
 * ^X is close
 * ^W is find ('Where is the thing?")
+* ^C shows line number details on currently selected line
+* There doesn't seem to be a way to enable line number display
+
+Things I've learned about git:
+* List all files in the .git index with `git ls-files`
+* Remove an item from the index that's already been added: `git rm --cached <filename>`
