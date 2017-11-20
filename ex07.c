@@ -35,7 +35,7 @@ int main(int arc, char *argv[])
 	int care_percentage = bugs * nul_byte;
 	printf("Which means you should care %d%%.\n", care_percentage);
 
-	printf("wrong = %s\n.", nul_byte);
+	// printf("wrong = %s\n.", nul_byte);
 
 	printf("char times int %d.\n",'a' * 1);
 	

@@ -1,0 +1,470 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ignore",
+				"ignoreClicks"
+			],
+			[
+				"check",
+				"checkRoundOverCondition"
+			],
+			[
+				"onClick",
+				"onClickHandler"
+			],
+			[
+				"onC",
+				"onClickHandler"
+			],
+			[
+				"on",
+				"onTileClick"
+			],
+			[
+				"ren",
+				"renderTiles"
+			],
+			[
+				"c",
+				"Component"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ex1.c",
+			"settings":
+			{
+				"buffer_size": 190,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 100,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ex7.c",
+			"settings":
+			{
+				"buffer_size": 1308,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/aburns/Workspace/tests/learnc"
+	],
+	"file_history":
+	[
+		"/Users/aburns/.bash_profile",
+		"/Users/aburns/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/assets/v2/base/image/svg/logo-TEMP.svg",
+		"/Users/aburns/Desktop/GT-Icon-_Home-01.svg",
+		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/assets/v1/base/image/svg/home.svg",
+		"/Users/aburns/Desktop/install-pip.py",
+		"/Users/aburns/Downloads/GU_GLOBAL_NAV/ICONS/profile-picture-placeholder.svg",
+		"/Users/aburns/Desktop/decrypt.py",
+		"/Users/aburns/Desktop/pythonthing/hack.py",
+		"/Users/aburns/.gitconfig",
+		"/Users/aburns/Workspace/gumtreeau/.git/config",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/test/Game.spec.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/webpack.config.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/test/Player.spec.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/Game.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/common/Config.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/components/GameButton.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/classes/Player.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/TODO.md",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/css/game/components/GameDisplay.scss",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/css/game/components/GameButton.scss",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/components/GameDisplay.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/components/GameContainer.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/common/Tools.js",
+		"/Users/aburns/Downloads/Code/code-1/code tests/Canva/js/Tools.js",
+		"/Users/aburns/Downloads/Code/Code/Code Tests/Gumtree/src/js/tools.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/components/GameNav.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/components/GameInfo.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/game/components/GameEnd.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/menu/components/MenuContainer.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/menu/Menu.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/js/main.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/css/game/components/GameNav.scss",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/css/game/components/GameEnd.scss",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/index.ejs",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/css/main.scss",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/css/menu/components/MenuContainer.scss",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/css/game/components/GameContainer.scss",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/css/common/variables.scss",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/postcss.config.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/README.md",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/package.json",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/src/css/game/components/GameInfo.scss",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/test/GameButton.spec.js",
+		"/Users/aburns/Workspace/tests/rockpaperscissors/test/module.spec.js",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameButtons.test.js",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameView.test.js",
+		"/Users/aburns/Workspace/tests/rps/src/Globals.js",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameView.js",
+		"/Users/aburns/Workspace/tests/rps/src/containers/GameContainer.js",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameButton.js",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameButton.test.js",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameInfo.test.js",
+		"/Users/aburns/Workspace/tests/rps/src/containers/GameContainer.test.js",
+		"/Users/aburns/Workspace/tests/rps/src/index.js",
+		"/Users/aburns/Workspace/tests/rps/src/stores/Store.js",
+		"/Users/aburns/Workspace/tests/rps/src/actions/Actions.js",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameInfo.js",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameInfo.css",
+		"/Users/aburns/Workspace/tests/rps/src/containers/MainMenuContainer.js",
+		"/Users/aburns/Workspace/tests/flux/examples/my-todomvc/src/views/AppView.js",
+		"/Users/aburns/Workspace/tests/rps/src/containers/GameContainer.css",
+		"/Users/aburns/Workspace/tests/rps/src/GameContainer.js",
+		"/Users/aburns/Workspace/tests/flux/examples/my-todomvc/src/root.js",
+		"/Users/aburns/Workspace/tests/flux/examples/my-todomvc/src/data/TodoDispatcher.js",
+		"/Users/aburns/Workspace/tests/flux/examples/my-todomvc/src/data/TodoActionTypes.js",
+		"/Users/aburns/Workspace/tests/flux/examples/my-todomvc/src/data/TodoActions.js",
+		"/Users/aburns/Workspace/tests/flux/examples/my-todomvc/src/data/TodoStore.js",
+		"/Users/aburns/Workspace/tests/flux/examples/my-todomvc/src/data/Todo.js",
+		"/Users/aburns/Workspace/tests/flux/examples/my-todomvc/src/containers/AppContainer.js",
+		"/Users/aburns/Workspace/tests/rps/src/App.js",
+		"/Users/aburns/Workspace/tests/flux/examples/my-todomvc/index.html",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameButton.css",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameView.css",
+		"/Users/aburns/Workspace/tests/rps/src/App.css",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Tile.js",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Button.js",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Tileset.js",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Constants.js",
+		"/Users/aburns/Workspace/tests/rps/src/App.test.js",
+		"/Users/aburns/Workspace/tests/react-hello-world/TODO.txt",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameButton/GameButton.js",
+		"/Users/aburns/Workspace/tests/rps/src/components/GameButton/GameButton.css",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/App.js",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Tile.css",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Tileset.css",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Message.js",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Message.css",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Ai.js",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/Button.css",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/App.css",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/index.js",
+		"/Users/aburns/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/aburns/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/aburns/Workspace/tests/react-hello-world/src/logo.svg",
+		"/Users/aburns/Downloads/AU QA responsive Web events send out twice.txt",
+		"/Users/aburns/Downloads/1000keywords2.csv",
+		"/Users/aburns/Downloads/StarCircleAssets/GradientAssets/LargeCircle.svg",
+		"/Users/aburns/Downloads/StarCircleAssets/giftmas-globe.svg",
+		"/Users/aburns/Downloads/StarCircleAssets/giftmas-star.svg",
+		"/Users/aburns/Downloads/StarCircleAssets/GradientAssets/SmallStar.svg",
+		"/Users/aburns/Downloads/searchEbayWebListings (1)",
+		"/Users/aburns/Workspace/gumtree-au-ui-framework/README.md",
+		"/Users/aburns/Library/Logs/IntelliJIdea15/idea.log",
+		"/Users/aburns/Desktop/ad code.txt",
+		"/Users/aburns/Desktop/SRP now.html",
+		"/Users/aburns/Desktop/SRP min.html",
+		"/Users/aburns/Virtual Machines/Vagrantfile",
+		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/assets/base/image/svg/logo.svg",
+		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/assets/base/image/svg/spinner.svg",
+		"/Users/aburns/Desktop/originalver.txt",
+		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/assets/base/image/svg/saved-search.svg",
+		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/assets/base/image/svg/chevron.svg",
+		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/assets/base/image/svg/grid-view.svg",
+		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/assets/base/image/svg/search.svg",
+		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/app/hero.ts",
+		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/app/hero-detail.component.ts",
+		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/index.html",
+		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/app/main.ts",
+		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/app/app.component.ts",
+		"/Users/aburns/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/aburns/Workspace/gumtreeau/box2/web/src/main/webapp/WEB-INF/jsp/postad/postAdDefault.inc.jsp",
+		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/resources/searchpanelnew/js/plugins/jquery.suggestionbox.js.orig",
+		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/package.json",
+		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/app/app.component.js",
+		"/Users/aburns/Workspace/tests/angular2-quickstart/tsconfig.json",
+		"/Users/aburns/Workspace/tests/angular2-quickstart/index.html",
+		"/Users/aburns/Workspace/tests/angular2-quickstart/app/main.ts"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ex1.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ex7.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1250,
+								1250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 97.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 192.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "learnc.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"make",
+				"Makefile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
