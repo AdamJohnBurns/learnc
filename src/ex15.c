@@ -1,13 +1,17 @@
 #include <stdio.h>
 
-int main (int argc, char *argv[])
+void render_names_1 (char **firstName);
+void render_names_2 (char **firstName);
+void render_names_2_reversed (char **lastName);
+
+int main2 (int argc, char *argv[])
 {
 	printf("\n");
 
 	// create arrays
 	int ages[] = { 23, 43, 12, 89, 2};
 	char *names[] = {
-		"Alan", "Frank", "Mary", "John", "lisa"
+		"Alannlongnametesttttttt", "Frank", "Mary", "John", "lisa"
 	};
 
 	// safely (and in a cross platform way) get size of ages
@@ -52,6 +56,26 @@ int main (int argc, char *argv[])
 		printf("%s lived %d years so far.\n", *cur_name, *cur_age);
 	}
 
+	printf("\n---\n\n");
+
+	// reverse of fourth
+	cur_name = names;
+	printf("val = %s\n", *(cur_name + count - 1)); // test to get the last in list
+
+	for (int offset = count - 1;
+		 offset >= 0;
+		 offset--) {
+		printf("%s lived\n", *(cur_name + offset));
+	}
+
+	printf("\n---\n\n");
+
+	// using a function with a while loop
+	render_names_1(names);
+	render_names_2(names);
+    int end = sizeof(names) / sizeof(names[0]) - 1;
+	render_names_2_reversed(names + end);
+
 	printf("\n");
 
 	// C sees your computer as a fluid set of bytes
@@ -70,6 +94,36 @@ int main (int argc, char *argv[])
 	// *(my_ptr+1) // value of the next item 
 	// &my_ptr // address of the thing
 	// my_ptr++ // increment pointer ot next address
+
+
+
+	// breaking it
+	// cur_name = names;
 	
 	return 0;
+}
+
+void render_names_1 (char **firstName)
+{
+
+	while (*firstName != NULL) {
+		printf("render_names_1(): %s\n", *firstName);
+		firstName++;
+	}
+}
+ 
+void render_names_2 (char **firstName)
+{
+	do {
+		printf("render_names_2(): %s\n", *firstName);
+		firstName++;
+	} while (*firstName != NULL);
+}
+
+void render_names_2_reversed (char **lastName)
+{
+     do {
+        printf("render_names_2_reversed(): %s\n", *lastName);
+         lastName--;
+     } while (*lastName != NULL);
 }

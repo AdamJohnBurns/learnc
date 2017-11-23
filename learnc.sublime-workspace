@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"render_n",
+				"render_names_2_reversed"
+			],
+			[
+				"cur_",
+				"cur_name"
+			],
+			[
 				"ignore",
 				"ignoreClicks"
 			],
@@ -36,29 +44,10 @@
 	"buffers":
 	[
 		{
-			"file": "ex1.c",
+			"file": "learnc/ex15.c",
 			"settings":
 			{
-				"buffer_size": 190,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Makefile",
-			"settings":
-			{
-				"buffer_size": 100,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ex7.c",
-			"settings":
-			{
-				"buffer_size": 1308,
-				"encoding": "UTF-8",
+				"buffer_size": 3581,
 				"line_ending": "Unix"
 			}
 		}
@@ -86,16 +75,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 87.0,
-		"last_filter": "install",
+		"height": 392.0,
+		"last_filter": "gdb",
 		"selected_items":
 		[
+			[
+				"gdb",
+				"SublimeGDB: Open Session View"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 467.0
+		"width": 444.0
 	},
 	"console":
 	{
@@ -120,6 +113,10 @@
 	],
 	"file_history":
 	[
+		"/Users/aburns/Workspace/tests/learnc/Makefile",
+		"/Users/aburns/Workspace/tests/learnc/ex1.c",
+		"/Users/aburns/Workspace/tests/learnc/learnc.sublime-project",
+		"/Users/aburns/Workspace/tests/learnc/ex7.c",
 		"/Users/aburns/.bash_profile",
 		"/Users/aburns/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/assets/v2/base/image/svg/logo-TEMP.svg",
@@ -243,11 +240,7 @@
 		"/Users/aburns/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/aburns/Workspace/gumtreeau/box2/web/src/main/webapp/WEB-INF/jsp/postad/postAdDefault.inc.jsp",
 		"/Users/aburns/Workspace/gumtreeau/box2/static/src/main/resources/searchpanelnew/js/plugins/jquery.suggestionbox.js.orig",
-		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/package.json",
-		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/app/app.component.js",
-		"/Users/aburns/Workspace/tests/angular2-quickstart/tsconfig.json",
-		"/Users/aburns/Workspace/tests/angular2-quickstart/index.html",
-		"/Users/aburns/Workspace/tests/angular2-quickstart/app/main.ts"
+		"/Users/aburns/Workspace/tests/angular2-tour-of-heroes/package.json"
 	],
 	"find":
 	{
@@ -282,80 +275,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "ex1.c",
+					"file": "learnc/ex15.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 190,
+						"buffer_size": 3581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Makefile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 100,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								53
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "ex7.c",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1308,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1250,
-								1250
+								575,
+								575
 							]
 						],
 						"settings":
@@ -364,10 +301,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 97.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -379,7 +316,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 37.0
 	},
 	"layout":
 	{
@@ -410,7 +347,7 @@
 	},
 	"output.exec":
 	{
-		"height": 192.0
+		"height": 299.0
 	},
 	"output.find_results":
 	{
@@ -458,10 +395,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 169.0,
 	"status_bar_visible": true,
 	"template_settings":
