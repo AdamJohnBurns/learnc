@@ -6,15 +6,21 @@
 //  Copyright © 2017 Burns, Adam. All rights reserved.
 //
 
+// angle brackets (<>) means "prefer filenames from official libraries rather than user ones"
 #include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
 #include <errno.h>
 #include <string.h>
 
+// different to normal variables, defines are hard coded constants that are inserted at compile time
+// by the preprocessor
 #define MAX_DATA 512
 #define MAX_ROWS 100
 
+// note because of the use of defines, these structs are always fixed in size no matter how much data
+// there actually is. less efficient but easier to use.
+// structs are aggregate data types.
 struct Address {
     int id;
     int set;
@@ -27,18 +33,21 @@ struct Database {
 };
 
 struct Connection {
-    FILE *file;
+    FILE *file; // a native c object (struct), has all information necessary to control a file stream
     struct Database *db;
 };
 
+// helper function to kill the program with an error message
 void die (const char *message)
 {
+    // when an error returns often this value is set with the number
     if (errno) {
         perror(message);
     } else {
         printf("ERROR: %s\n", message);
     }
     
+    // immediately terminates calling process with the provided status
     exit(1);
 }
 
@@ -49,6 +58,8 @@ void Address_print (struct Address *addr)
 
 void Database_load (struct Connection *conn)
 {
+    // fread() reads an already fopen()'d file stream into the pointed to array. note we need
+    // to specify how big this object it to load it
     int rc = fread(conn->db, sizeof(struct Database), 1, conn->file);
     
     if (rc != 1) {
@@ -71,6 +82,8 @@ struct Connection *Database_open (const char *filename, char mode)
     }
     
     if (mode == 'c') {
+        // creates a new file or opens existing file (depending on the 'mode' set).
+        // note that writing binary files uses slightly different codes (usually with a 'b')
         conn->file = fopen(filename, "w");
     } else {
         conn->file = fopen(filename, "r+");
@@ -89,6 +102,7 @@ void Database_close (struct Connection *conn)
 {
     if (conn) {
         if (conn->file) {
+            // closes a file, return 0 on success or EOF if error
             fclose(conn->file);
         }
         
@@ -96,6 +110,7 @@ void Database_close (struct Connection *conn)
             free(conn->db);
         }
         
+        // deallocates memory previously allocated by a memory allocation functionc
         free(conn);
     }
 }
