@@ -150,7 +150,7 @@ void Database_create (struct Connection *conn)
 
 void Database_set (struct Connection *conn, int id, const char *name, const char *email)
 {
-    struct Address *addr = &conn->db>rows[id];
+    struct Address *addr = &conn->db->rows[id];
     
     if (addr->set) {
         die("Already set, delete it first");
