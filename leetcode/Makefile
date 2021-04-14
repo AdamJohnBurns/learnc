@@ -1,5 +1,5 @@
 CFLAGS=-Wall -g
-FILENAME=001-2sum
+FILENAME=767-reorganize-string
 
 clean:
 
